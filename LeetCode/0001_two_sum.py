@@ -16,7 +16,7 @@ def twoSum2(nums, target):
         if k in d and d[k] != i:
             return [i, d[k]]
 
-# O(n) using dict, two-pass
+# O(n) using dict, one-pass
 def twoSum3(nums, target):
     d = dict()
     for i, xi in enumerate(nums):
