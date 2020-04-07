@@ -1,29 +1,23 @@
 def reverseWords(s):
     # return " ".join(s.split()[::-1])
 
-    def reverseString(s, a, b):
-        i, j = a, b
+    def reverseSubstring(i, j):
         while i < j:
-            s[a], s[b] = s[b], s[a]
+            s[i], s[j] = s[j], s[i]
             i += 1
             j -= 1
 
-        return "".join(s[a:b+1])
+    s = list(" ".join(s.strip().split()))
 
-    s = list(s)
-    cur = []
+    start = 0
+    for i in range(len(s)+1):
+        if i == len(s) or s[i] == " ":
+            reverseSubstring(start, i-1)
+            start = i+1
 
-    i = 0
-    start = None
-    for i in range(len(s)):
-        if not start and s[i] == " ": continue
-        if not start:
-            start = i
-        else:
-            cur.append(reverseString(s, start, i))
-            start = None
+    reverseSubstring(0, len(s)-1)
 
-    return " ".join(cur)
+    return "".join(s)
 
 print(reverseWords("the sky is blue")) # "blue is sky the"
 print(reverseWords("  hello world!  ")) # "world! hello"
