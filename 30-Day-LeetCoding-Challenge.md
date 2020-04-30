@@ -11,7 +11,7 @@
 | **7** | | Counting Elements | [counting_elements.py](LeetCode/counting_elements.py) |
 | **8** | 876 | Middle of the Linked List | [0876_middle_ll.py](LeetCode/0876_middle_ll.py) |
 | **9** | 844 | Backspace String Compare | [0844_backspace_string_compare.py](LeetCode/0844_backspace_string_compare.py) |
-| **10** | 155 | Min Stack | |
+| **10** | 155 | Min Stack | [0155_min_stack.py](LeetCode/0155_min_stack.py) |
 | **11** | 543 | Diameter of Binary Tree | |
 | **12** | 1046 | Last Stone Weight | |
 | **13** | 525 | Contiguous Array | |
