@@ -22,13 +22,13 @@
 | **18** | 64 | Minimum Path Sum | |
 | **19** | 33 | Search in Rotated Sorted Array | [0033_search_in_rotated_sorted_array.py](LeetCode/0033_search_in_rotated_sorted_array.py) |
 | **20** | 1008 | Construct Binary Search Tree from Preorder Traversal | |
-| **21** | New | Leftmost Column with at Least a One | |
+| **21** | | Leftmost Column with at Least a One | |
 | **22** | 506 | Subarray Sum Equals K | |
 | **23** | 201 | Bitwise AND of Numbers Range | |
 | **24** | 146 | LRU Cache | |
 | **25** | 55 | Jump Game | |
 | **26** | 1143 | Longest Common Subsequence | |
 | **27** | 221 | Maximal Square | |
-| **28** | | | |
-| **29** | | | |
-| **30** | | | |
+| **28** | | First Unique Number | |
+| **29** | 124 | Binary Tree Maximum Path Sum | |
+| **30** | | Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree | |
