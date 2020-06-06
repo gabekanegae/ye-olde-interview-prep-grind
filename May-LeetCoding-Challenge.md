@@ -8,7 +8,7 @@
 | **4** | 476 | Number Complement | [0476_number_complement.py](LeetCode/0476_number_complement.py) |
 | **5** | 387 | First Unique Character in a String | [0387_first_unique_character.py](LeetCode/0387_first_unique_character.py) |
 | **6** | 169 | Majority Element | [0169_majority_element.py](LeetCode/0169_majority_element.py) |
-| **7** | 993 | Cousins in Binary Tree | |
+| **7** | 993 | Cousins in Binary Tree | [0993_cousins_in_binary_tree.py](LeetCode/0993_cousins_in_binary_tree.py) |
 | **8** | 1232 | Check If It Is a Straight Line | [1232_check_if_straight_line.py](LeetCode/1232_check_if_straight_line.py) |
 | **9** | 367 | Valid Perfect Square | |
 | **10** | 997 | Find the Town Judge | |
