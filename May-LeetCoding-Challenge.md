@@ -2,7 +2,7 @@
 
 |Day|LC #|Title|Solution|
 |-|-|-|-|
-| **1** | 278 | First Bad Version | |
+| **1** | 278 | First Bad Version | [0278_first_bad_version.py](LeetCode/0278_first_bad_version.py) |
 | **2** | 771 | Jewels and Stones | |
 | **3** | 383 | Ransom Note | [0383_ransom_note.py](LeetCode/0383_ransom_note.py) |
 | **4** | 476 | Number Complement | |
