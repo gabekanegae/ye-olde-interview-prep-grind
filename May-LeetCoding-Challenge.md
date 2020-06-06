@@ -5,7 +5,7 @@
 | **1** | 278 | First Bad Version | [0278_first_bad_version.py](LeetCode/0278_first_bad_version.py) |
 | **2** | 771 | Jewels and Stones | [0771_jewels_and_stones.py](LeetCode/0771_jewels_and_stones.py) |
 | **3** | 383 | Ransom Note | [0383_ransom_note.py](LeetCode/0383_ransom_note.py) |
-| **4** | 476 | Number Complement | |
+| **4** | 476 | Number Complement | [0476_number_complement.py](LeetCode/0476_number_complement.py) |
 | **5** | 387 | First Unique Character in a String | [0387_first_unique_character.py](LeetCode/0387_first_unique_character.py) |
 | **6** | 169 | Majority Element | [0169_majority_element.py](LeetCode/0169_majority_element.py) |
 | **7** | 993 | Cousins in Binary Tree | |
