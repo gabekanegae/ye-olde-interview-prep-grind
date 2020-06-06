@@ -7,7 +7,7 @@
 | **3** | 383 | Ransom Note | [0383_ransom_note.py](LeetCode/0383_ransom_note.py) |
 | **4** | 476 | Number Complement | |
 | **5** | 387 | First Unique Character in a String | [0387_first_unique_character.py](LeetCode/0387_first_unique_character.py) |
-| **6** | 169 | Majority Element | |
+| **6** | 169 | Majority Element | [0169_majority_element.py](LeetCode/0169_majority_element.py) |
 | **7** | 993 | Cousins in Binary Tree | |
 | **8** | 1232 | Check If It Is a Straight Line | [1232_check_if_straight_line.py](LeetCode/1232_check_if_straight_line.py) |
 | **9** | 367 | Valid Perfect Square | |
