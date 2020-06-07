@@ -9,17 +9,17 @@ def cloneGraph(root):
     if not root:
         return None
 
-    new = {root: Node(root.val, [])}
+    new = {root.val: Node(root.val, [])}
     queue = deque([root])
     
     while queue:
         cur = queue.popleft()
 
         for neighbor in cur.neighbors:
-            if neighbor not in new:
-                new[neighbor] = Node(neighbor.val, [])
+            if neighbor.val not in new:
+                new[neighbor.val] = Node(neighbor.val, [])
                 queue.append(neighbor)
 
-            new[cur].neighbors.append(new[neighbor])
+            new[cur.val].neighbors.append(new[neighbor.val])
 
-    return new[root]
+    return new[root.val]
