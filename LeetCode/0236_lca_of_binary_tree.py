@@ -12,8 +12,7 @@ def lowestCommonAncestor(root, p, q):
     inRight = lowestCommonAncestor(root.right, p, q)
 
     if inLeft and inRight: return root
-    elif inLeft: return inLeft
-    elif inRight: return inRight
+    return inLeft or inRight
 
 root = TreeNode(3)
 root.left = TreeNode(5)
