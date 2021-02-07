@@ -1,25 +1,28 @@
+allowed = set("abcdefghijklmnopqrstuvwxyz0123456789")
+
 def isPalindrome(s):
+    s = s.lower()
+
     i, j = 0, len(s)-1
 
     while i < j:
-        while not s[i].lower().isalnum():
+        if s[i] not in allowed:
             i += 1
-            if not i < j: return True
-
-        while not s[j].lower().isalnum():
+        if s[j] not in allowed:
             j -= 1
-            if not i < j: return True
 
-        if s[i].lower() != s[j].lower():
-            return False
-
-        i += 1
-        j -= 1
+        if s[i] in allowed and s[j] in allowed:
+            if s[i] != s[j]:
+                return False
+            else:
+                i += 1
+                j -= 1
 
     return True
 
-print(isPalindrome("A man, a plan, a canal: Panama"))
-print(isPalindrome("race a car"))
-print(isPalindrome(".,"))
-print(isPalindrome(" "))
-print(isPalindrome("0P"))
+print(isPalindrome("Socorram-me, subi no onibus em marrocos!!!")) # True
+print(isPalindrome("A man, a plan, a canal: Panama")) # True
+print(isPalindrome("race a car")) # False
+print(isPalindrome(".,")) # True
+print(isPalindrome(" ")) # True
+print(isPalindrome("0P")) # False
