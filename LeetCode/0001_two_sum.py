@@ -22,7 +22,7 @@ def twoSum3(nums, target):
     for i, xi in enumerate(nums):
         k = target - xi
 
-        if k in d and d[k] != i:
+        if k in d:
             return [d[k], i]
         d[xi] = i
 
