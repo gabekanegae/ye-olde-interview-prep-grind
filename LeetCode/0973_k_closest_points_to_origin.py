@@ -1,14 +1,13 @@
-from heapq import heappop, heappush
+from heapq import heapify, heappop
 
 def distFromOrigin(p):
     return p[0]**2 + p[1]**2
 
 def kClosest(points, K):
-    heap = []
-    for p in points:
-        heappush(heap, (distFromOrigin(p), p))
+    dists = [(self.distFromOrigin(p), p) for p in points]
+    heapify(dists)
 
-    return [heappop(heap)[1] for _ in range(K)]
+    return [heappop(dists)[1] for _ in range(K)]
 
 print(kClosest([[1, 3], [-2, 2]], 1)) # [[-2, 2]]
 
